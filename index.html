@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Management System | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <style>
+    :root { --primary: #0d3b66; --accent: #d97706; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #1f2937; background: #f7f9fc; }
+    a { text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    .site-navbar { background: #fff; border-bottom: 1px solid #dbe3ee; }
+    .navbar-brand { color: var(--primary) !important; font-weight: 700; }
+    .navbar-brand .brand-badge { display: inline-flex; align-items: center; justify-content: center; width: 2rem; height: 2rem; margin-right: 0.5rem; border-radius: 0.5rem; background: #cf0d78; color: #fff; font-size: 0.9rem; }
+    .navbar .nav-link { color: #1f2937; font-weight: 500; border-radius: 0.5rem; padding: 0.6rem 1rem; }
+    .navbar .nav-link.active, .navbar .nav-link:hover { color: #fff; background: var(--primary); }
+    .page-hero { padding: 4.5rem 0; color: #fff; background: var(--primary); background-size: cover; background-position: center; background-blend-mode: overlay; }
+    .section-pad { padding: 4rem 0; }
+    .section-title { max-width: 760px; margin: 0 auto 2rem; text-align: center; }
+    .eyebrow { display: inline-block; padding: 0.35rem 0.8rem; border-radius: 999px; background: rgba(13, 59, 102, 0.1); color: var(--primary); font-size: 0.82rem; font-weight: 600; }
+    .section-title h2 { margin-top: 0.9rem; color: var(--primary); font-weight: 700; }
+    .surface-card, .feature-card { background: #fff; border: 1px solid #dbe3ee; border-radius: 1rem; padding: 1.25rem; }
+    .feature-icon { width: 3rem; height: 3rem; display: inline-flex; align-items: center; justify-content: center; border-radius: 0.75rem; background: rgba(13, 59, 102, 0.1); margin-bottom: 1rem; color: var(--primary); }
+    .about-image { width: 100%; object-fit: cover; height: 260px; }
+    .highlight-list { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.75rem; }
+    .highlight-list li { display: flex; gap: 0.7rem; color: #6b7280; }
+    .highlight-list i { color: var(--primary); }
+    .site-footer { margin-top: 2rem; padding: 2.5rem 0 1.25rem; color: #fff; background: var(--primary); }
+    .site-footer a, .site-footer p, .site-footer .small { color: rgba(255, 255, 255, 0.88); }
+    .social-links a { width: 2.6rem; height: 2.6rem; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: rgba(255, 255, 255, 0.14); color: #fff; }
+    .footer-links { display: grid; gap: 0.5rem; }
+    .footer-links a::before { content: '\2192'; margin-right: 0.4rem; }
+    .btn-accent { --bs-btn-color: #fff; --bs-btn-bg: var(--accent); --bs-btn-border-color: var(--accent); --bs-btn-hover-bg: #b45309; --bs-btn-hover-border-color: #b45309; }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg site-navbar sticky-top py-3">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <span class="brand-badge">S</span>
+      Student Management System
+    </a>
+    <ul class="navbar-nav flex-column flex-lg-row ms-lg-auto align-items-lg-center gap-lg-2 mt-3 mt-lg-0">
+      <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+      <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
+      <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section class="page-hero" style="--page-bg: url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1600&q=80');">
+  <div class="container position-relative">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="badge rounded-pill text-bg-light text-primary px-3 py-2 mb-3">Admissions Open 2026</span>
+        <h1 class="display-4 fw-bold mb-3">A simple student management website made with HTML, CSS, and Bootstrap.</h1>
+        <p class="lead mb-4">This project is organized into easy sections so it is simple to understand and explain during submission.</p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="registration.html" class="btn btn-accent btn-lg">Register Student</a>
+          <a href="courses.html" class="btn btn-outline-light btn-lg">Explore Courses</a>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="surface-card bg-white text-dark">
+          <h2 class="h4 text-primary mb-3">What this project includes</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Home page</li>
+            <li class="list-group-item">About page</li>
+            <li class="list-group-item">Courses page</li>
+            <li class="list-group-item">Registration form</li>
+            <li class="list-group-item">Gallery page</li>
+            <li class="list-group-item">Contact page</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container section-pad">
+  <div class="section-title">
+    <span class="eyebrow">Campus highlights</span>
+    <h2>Three simple points to explain in presentation</h2>
+    <p>Each card shows one part of the website structure.</p>
+  </div>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="feature-card h-100">
+        <div class="card-body">
+          <div class="feature-icon"><i class="fa-solid fa-book-open"></i></div>
+          <h3 class="h5">Student Life</h3>
+          <p class="text-muted mb-0">Shows campus activity and student engagement.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card h-100">
+        <div class="card-body">
+          <div class="feature-icon"><i class="fa-solid fa-computer"></i></div>
+          <h3 class="h5">Courses</h3>
+          <p class="text-muted mb-0">Displays the academic programs available in the institute.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card h-100">
+        <div class="card-body">
+          <div class="feature-icon"><i class="fa-solid fa-file-pen"></i></div>
+          <h3 class="h5">Registration</h3>
+          <p class="text-muted mb-0">Lets the user fill the student admission form.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container section-pad pt-0">
+  <div class="row g-4 align-items-center">
+    <div class="col-lg-6">
+      <img class="about-image" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80" alt="Campus overview">
+    </div>
+    <div class="col-lg-6">
+      <div class="surface-card">
+        <span class="eyebrow">Welcome</span>
+        <h2 class="mt-3 text-primary">A friendly and informative landing area</h2>
+        <p class="text-muted">The welcome section introduces the institute and directs visitors toward the important pages on the website.</p>
+        <ul class="highlight-list">
+          <li><i class="fa-solid fa-circle-check"></i> Quick access to admissions and course details.</li>
+          <li><i class="fa-solid fa-circle-check"></i> Responsive content blocks for smooth reading.</li>
+          <li><i class="fa-solid fa-circle-check"></i> Consistent navigation and footer across all pages.</li>
+        </ul>
+        <div class="mt-4 d-flex flex-wrap gap-3">
+          <a href="about.html" class="btn btn-primary">Read about the institute</a>
+          <a href="contact.html" class="btn btn-outline-primary">Contact support</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-5">
+        <h5 class="mb-3">Student Management System</h5>
+        <p class="mb-4">A responsive frontend project for managing student information, course listings, and admissions with a professional academic style.</p>
+        <div class="social-links d-flex gap-2">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h5 class="mb-3">Quick Links</h5>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="courses.html">Courses</a>
+          <a href="registration.html">Registration</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <h5 class="mb-3">Contact</h5>
+        <p class="mb-1">B.VOC(SD) Campus, Web Dev Front End Lab</p>
+        <p class="mb-1">studentcare@example.com</p>
+        <p class="mb-0">+91 98765 43210</p>
+      </div>
+    </div>
+    <div class="border-top border-light border-opacity-25 mt-4 pt-3 text-center small">
+      © 2026 Student Management System. All rights reserved.
+    </div>
+  </div>
+</footer>
+</body>
+</html>
