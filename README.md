@@ -1,6 +1,8 @@
 # WD-Project
 
-Live Website:
+Live Website: https://idris91101.github.io/WD-Project/
+
+
 A simple and responsive Student Management System website created using HTML, CSS, Bootstrap, CSS Grid, and CSS Flexbox. This project is designed as a frontend web development project for academic submission and demonstrates modern responsive webpage design techniques.
 
   Features
@@ -42,9 +44,8 @@ Responsive Web Design
 CSS Grid Layout
 CSS Flexbox Layout
 Media Queries
-Project Objective
 
-The objective of this project is to understand frontend web development concepts and create a responsive student management website using modern web technologies.
+Project Objective :The objective of this project is to understand frontend web development concepts and create a responsive student management website using modern web technologies.
 
 Learning Outcomes
 Learned responsive web designing
@@ -56,6 +57,4 @@ Improved frontend development skills
 Author
 Idris Bohra
 
-License
-
-This project is created for educational purposes only.
+License: This project is created for educational purposes only.
